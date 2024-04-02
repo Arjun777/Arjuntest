@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appcolor">#171717</color>
+    <color name="blue">#0336FF</color>
+    <color name="colorAccent">#FFDE54</color>
+    <color name="colorPrimary">#48a999</color>
+    <color name="colorPrimaryDark">#004c40</color>
+    <color name="colorTextPrimary">#202020</color>
+    <color name="colorTextSecondary">#737373</color>
+    <color name="gainsBoro">#b9b9b9</color>
+    <color name="golden">#ffc800</color>
+    <color name="lightGray">#eaeaea</color>
+    <color name="transparent">#5a000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteSmoke">#f4f4f4</color>
+    <dimen name="album_card_width_size">160dp</dimen>
+    <dimen name="body1">13sp</dimen>
+    <dimen name="body2">14sp</dimen>
+    <dimen name="button">14sp</dimen>
+    <dimen name="caption">12sp</dimen>
+    <dimen name="detail_image_height_size">260dp</dimen>
+    <dimen name="display1">34sp</dimen>
+    <dimen name="display2">45sp</dimen>
+    <dimen name="display3">56sp</dimen>
+    <dimen name="display4">112sp</dimen>
+    <dimen name="headline">24sp</dimen>
+    <dimen name="photo_card_height_size">180dp</dimen>
+    <dimen name="photo_image_height_size">140dp</dimen>
+    <dimen name="subheading1">15sp</dimen>
+    <dimen name="subheading2">16sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="title">20sp</dimen>
+    <string name="app_name">ArjunDiagonal</string>
+    <string name="dskjsdjksdjdskjksd">dskjsdjksdjdskjksd</string>
+    <string name="roma">Romantic Comedy</string>
+</resources>

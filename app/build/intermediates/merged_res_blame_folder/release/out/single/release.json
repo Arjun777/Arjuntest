@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster4.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster4.jpg"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster2.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster2.jpg"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster7.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster7.jpg"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster3.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster3.jpg"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/font_atlantic.ttf.flat",
+        "source": "com.android.artgallery.app-main-49:/font/atlantic.ttf"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster8.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster8.jpg"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster1.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster1.jpg"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster9.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster9.jpg"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster6.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster6.jpg"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.android.artgallery.app-main-49:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.android.artgallery.app-merged_res-48:/drawable_poster5.jpg.flat",
+        "source": "com.android.artgallery.app-main-49:/drawable/poster5.jpg"
+    }
+]

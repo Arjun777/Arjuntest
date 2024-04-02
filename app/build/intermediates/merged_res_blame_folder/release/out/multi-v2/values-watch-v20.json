@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.artgallery.app-mergeReleaseResources-46:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/arjunlearning/.gradle/caches/transforms-3/72235cc0f1ea5a05be865c53f8defd0e/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

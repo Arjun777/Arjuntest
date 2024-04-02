@@ -1,0 +1,315 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.arjdiagonal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/83c944afbd148836ab5899ac097686ac/transformed/jetified-play-services-measurement-api-18.0.3/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/83c944afbd148836ab5899ac097686ac/transformed/jetified-play-services-measurement-api-18.0.3/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:26:22-107
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] /Users/arjunlearning/.gradle/caches/transforms-3/8dbb8bda82148435df8b131418fbc979/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.android.arjdiagonal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] /Users/arjunlearning/.gradle/caches/transforms-3/8dbb8bda82148435df8b131418fbc979/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] /Users/arjunlearning/.gradle/caches/transforms-3/8dbb8bda82148435df8b131418fbc979/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.android.arjdiagonal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] /Users/arjunlearning/.gradle/caches/transforms-3/8dbb8bda82148435df8b131418fbc979/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] /Users/arjunlearning/.gradle/caches/transforms-3/8dbb8bda82148435df8b131418fbc979/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:7:5-26:19
+23        android:name="com.android.artgallery.MainApplication"
+23-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:8:9-40
+24        android:allowBackup="true"
+24-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:9:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.12.0] /Users/arjunlearning/.gradle/caches/transforms-3/8dbb8bda82148435df8b131418fbc979/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:10:9-43
+29        android:label="@string/app_name"
+29-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:11:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:12:9-54
+31        android:supportsRtl="true"
+31-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:13:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:14:9-40
+34        <activity
+34-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:15:9-24:20
+35            android:name="com.android.presentation.media.MediaActivity"
+35-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:16:13-72
+36            android:exported="true"
+36-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:17:13-36
+37            android:theme="@style/AppTheme" >
+37-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:18:13-44
+38            <intent-filter>
+38-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:19:13-23:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:20:17-69
+39-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:20:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:22:17-77
+41-->/Users/arjunlearning/Desktop/ArjDiagonal/MachineTest/app/src/main/AndroidManifest.xml:22:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <service
+45-->[com.google.firebase:firebase-crashlytics-ktx:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/078b8821fd6f4d2a215dd388ce2959d2/transformed/jetified-firebase-crashlytics-ktx-18.6.3/AndroidManifest.xml:21:9-27:19
+46            android:name="com.google.firebase.components.ComponentDiscoveryService"
+46-->[com.google.firebase:firebase-crashlytics-ktx:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/078b8821fd6f4d2a215dd388ce2959d2/transformed/jetified-firebase-crashlytics-ktx-18.6.3/AndroidManifest.xml:22:13-84
+47            android:directBootAware="true"
+47-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+48            android:exported="false" >
+48-->[com.google.firebase:firebase-crashlytics-ktx:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/078b8821fd6f4d2a215dd388ce2959d2/transformed/jetified-firebase-crashlytics-ktx-18.6.3/AndroidManifest.xml:23:13-37
+49            <meta-data
+49-->[com.google.firebase:firebase-crashlytics-ktx:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/078b8821fd6f4d2a215dd388ce2959d2/transformed/jetified-firebase-crashlytics-ktx-18.6.3/AndroidManifest.xml:24:13-26:85
+50                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+50-->[com.google.firebase:firebase-crashlytics-ktx:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/078b8821fd6f4d2a215dd388ce2959d2/transformed/jetified-firebase-crashlytics-ktx-18.6.3/AndroidManifest.xml:25:17-130
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-crashlytics-ktx:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/078b8821fd6f4d2a215dd388ce2959d2/transformed/jetified-firebase-crashlytics-ktx-18.6.3/AndroidManifest.xml:26:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/d77106eb4f4fbf5d209834cda5da5c92/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:15:13-17:85
+53                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+53-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/d77106eb4f4fbf5d209834cda5da5c92/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:16:17-126
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/d77106eb4f4fbf5d209834cda5da5c92/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:17:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/d77106eb4f4fbf5d209834cda5da5c92/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:18:13-20:85
+56                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+56-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/d77106eb4f4fbf5d209834cda5da5c92/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:19:17-115
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/arjunlearning/.gradle/caches/transforms-3/d77106eb4f4fbf5d209834cda5da5c92/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:20:17-82
+58            <meta-data
+58-->[com.google.android.gms:play-services-measurement-api:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/83c944afbd148836ab5899ac097686ac/transformed/jetified-play-services-measurement-api-18.0.3/AndroidManifest.xml:30:13-32:85
+59                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+59-->[com.google.android.gms:play-services-measurement-api:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/83c944afbd148836ab5899ac097686ac/transformed/jetified-play-services-measurement-api-18.0.3/AndroidManifest.xml:31:17-139
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.android.gms:play-services-measurement-api:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/83c944afbd148836ab5899ac097686ac/transformed/jetified-play-services-measurement-api-18.0.3/AndroidManifest.xml:32:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-sessions:1.2.3] /Users/arjunlearning/.gradle/caches/transforms-3/553a39dee55f640f35b1b95a452a840c/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:29:13-31:85
+62                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+62-->[com.google.firebase:firebase-sessions:1.2.3] /Users/arjunlearning/.gradle/caches/transforms-3/553a39dee55f640f35b1b95a452a840c/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:30:17-117
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-sessions:1.2.3] /Users/arjunlearning/.gradle/caches/transforms-3/553a39dee55f640f35b1b95a452a840c/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:31:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-installations:17.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/1bb4b1e2354ef009ced000497fcd3dad/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+65                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+65-->[com.google.firebase:firebase-installations:17.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/1bb4b1e2354ef009ced000497fcd3dad/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-installations:17.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/1bb4b1e2354ef009ced000497fcd3dad/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-installations:17.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/1bb4b1e2354ef009ced000497fcd3dad/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+68                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+68-->[com.google.firebase:firebase-installations:17.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/1bb4b1e2354ef009ced000497fcd3dad/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-installations:17.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/1bb4b1e2354ef009ced000497fcd3dad/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/b4e204294ee015f064d70c2fe15f5844/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+71                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+71-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/b4e204294ee015f064d70c2fe15f5844/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/b4e204294ee015f064d70c2fe15f5844/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+74                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+74-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/arjunlearning/.gradle/caches/transforms-3/bc5b4a7f310edd16724f9e3ac1ceee46/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+77                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+77-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/arjunlearning/.gradle/caches/transforms-3/bc5b4a7f310edd16724f9e3ac1ceee46/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/arjunlearning/.gradle/caches/transforms-3/bc5b4a7f310edd16724f9e3ac1ceee46/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+79        </service>
+80        <service
+80-->[androidx.room:room-runtime:2.6.1] /Users/arjunlearning/.gradle/caches/transforms-3/d9a5a2625574adf0c52c42f4a289f74b/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.6.1] /Users/arjunlearning/.gradle/caches/transforms-3/d9a5a2625574adf0c52c42f4a289f74b/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+82            android:directBootAware="true"
+82-->[androidx.room:room-runtime:2.6.1] /Users/arjunlearning/.gradle/caches/transforms-3/d9a5a2625574adf0c52c42f4a289f74b/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+83            android:exported="false" />
+83-->[androidx.room:room-runtime:2.6.1] /Users/arjunlearning/.gradle/caches/transforms-3/d9a5a2625574adf0c52c42f4a289f74b/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+84        <service
+84-->[com.google.firebase:firebase-sessions:1.2.3] /Users/arjunlearning/.gradle/caches/transforms-3/553a39dee55f640f35b1b95a452a840c/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:22:9-25:40
+85            android:name="com.google.firebase.sessions.SessionLifecycleService"
+85-->[com.google.firebase:firebase-sessions:1.2.3] /Users/arjunlearning/.gradle/caches/transforms-3/553a39dee55f640f35b1b95a452a840c/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:23:13-80
+86            android:enabled="true"
+86-->[com.google.firebase:firebase-sessions:1.2.3] /Users/arjunlearning/.gradle/caches/transforms-3/553a39dee55f640f35b1b95a452a840c/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:24:13-35
+87            android:exported="false" />
+87-->[com.google.firebase:firebase-sessions:1.2.3] /Users/arjunlearning/.gradle/caches/transforms-3/553a39dee55f640f35b1b95a452a840c/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:25:13-37
+88
+89        <receiver
+89-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:29:9-33:20
+90            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+90-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:30:13-85
+91            android:enabled="true"
+91-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:31:13-35
+92            android:exported="false" >
+92-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:32:13-37
+93        </receiver>
+94
+95        <service
+95-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:35:9-38:40
+96            android:name="com.google.android.gms.measurement.AppMeasurementService"
+96-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:36:13-84
+97            android:enabled="true"
+97-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:37:13-35
+98            android:exported="false" />
+98-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:38:13-37
+99        <service
+99-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:39:9-43:72
+100            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+100-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:40:13-87
+101            android:enabled="true"
+101-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:41:13-35
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:42:13-37
+103            android:permission="android.permission.BIND_JOB_SERVICE" />
+103-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/arjunlearning/.gradle/caches/transforms-3/2394a9292cdabdf083a080084e291295/transformed/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:43:13-69
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+107            android:authorities="com.android.arjdiagonal.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+109            android:exported="false"
+109-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+110            android:initOrder="100" />
+110-->[com.google.firebase:firebase-common:20.4.2] /Users/arjunlearning/.gradle/caches/transforms-3/09932d7dc89fd269da9e03fb1fac45b7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+111        <provider
+111-->[io.coil-kt:coil:0.7.0] /Users/arjunlearning/.gradle/caches/transforms-3/777250532371d4adaa986e7db58b8024/transformed/jetified-coil-0.7.0/AndroidManifest.xml:10:9-13:40
+112            android:name="coil.util.CoilContentProvider"
+112-->[io.coil-kt:coil:0.7.0] /Users/arjunlearning/.gradle/caches/transforms-3/777250532371d4adaa986e7db58b8024/transformed/jetified-coil-0.7.0/AndroidManifest.xml:11:13-57
+113            android:authorities="com.android.arjdiagonal.coil"
+113-->[io.coil-kt:coil:0.7.0] /Users/arjunlearning/.gradle/caches/transforms-3/777250532371d4adaa986e7db58b8024/transformed/jetified-coil-0.7.0/AndroidManifest.xml:12:13-56
+114            android:exported="false" />
+114-->[io.coil-kt:coil:0.7.0] /Users/arjunlearning/.gradle/caches/transforms-3/777250532371d4adaa986e7db58b8024/transformed/jetified-coil-0.7.0/AndroidManifest.xml:13:13-37
+115        <provider
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/c558d001f101163a8b2ff7ee817954da/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+116            android:name="androidx.startup.InitializationProvider"
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/c558d001f101163a8b2ff7ee817954da/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+117            android:authorities="com.android.arjdiagonal.androidx-startup"
+117-->[androidx.emoji2:emoji2:1.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/c558d001f101163a8b2ff7ee817954da/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+118            android:exported="false" >
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/c558d001f101163a8b2ff7ee817954da/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+119            <meta-data
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/c558d001f101163a8b2ff7ee817954da/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+120-->[androidx.emoji2:emoji2:1.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/c558d001f101163a8b2ff7ee817954da/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+121                android:value="androidx.startup" />
+121-->[androidx.emoji2:emoji2:1.2.0] /Users/arjunlearning/.gradle/caches/transforms-3/c558d001f101163a8b2ff7ee817954da/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/arjunlearning/.gradle/caches/transforms-3/c6f6fa038cfbd678ad50b765e1db54ab/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+123-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/arjunlearning/.gradle/caches/transforms-3/c6f6fa038cfbd678ad50b765e1db54ab/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+124                android:value="androidx.startup" />
+124-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/arjunlearning/.gradle/caches/transforms-3/c6f6fa038cfbd678ad50b765e1db54ab/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+125            <meta-data
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+127                android:value="androidx.startup" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+128        </provider>
+129
+130        <receiver
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+131            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+132            android:directBootAware="false"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+133            android:enabled="true"
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+134            android:exported="true"
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+135            android:permission="android.permission.DUMP" >
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+137                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+140                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+143                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+146                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/arjunlearning/.gradle/caches/transforms-3/4f8ce700fad2f92f2ff007e11052a650/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+147            </intent-filter>
+148        </receiver>
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:18.1.0] /Users/arjunlearning/.gradle/caches/transforms-3/79f0ee2cfe61f09460ca621b1d69d232/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:18.1.0] /Users/arjunlearning/.gradle/caches/transforms-3/79f0ee2cfe61f09460ca621b1d69d232/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:18.1.0] /Users/arjunlearning/.gradle/caches/transforms-3/79f0ee2cfe61f09460ca621b1d69d232/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+153
+154        <service
+154-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/110ec835a7bc94ee265887efcae4df55/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+155            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+155-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/110ec835a7bc94ee265887efcae4df55/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+156            android:exported="false" >
+156-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/110ec835a7bc94ee265887efcae4df55/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+157            <meta-data
+157-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/110ec835a7bc94ee265887efcae4df55/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+158                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+158-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/110ec835a7bc94ee265887efcae4df55/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+159                android:value="cct" />
+159-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/110ec835a7bc94ee265887efcae4df55/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+160        </service>
+161        <service
+161-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/3200e960f346198fbf62c9e2527bd9a1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+162            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+162-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/3200e960f346198fbf62c9e2527bd9a1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+163            android:exported="false"
+163-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/3200e960f346198fbf62c9e2527bd9a1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+164            android:permission="android.permission.BIND_JOB_SERVICE" >
+164-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/3200e960f346198fbf62c9e2527bd9a1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+165        </service>
+166
+167        <receiver
+167-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/3200e960f346198fbf62c9e2527bd9a1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+168            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+168-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/3200e960f346198fbf62c9e2527bd9a1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+169            android:exported="false" />
+169-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/arjunlearning/.gradle/caches/transforms-3/3200e960f346198fbf62c9e2527bd9a1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+170    </application>
+171
+172</manifest>
